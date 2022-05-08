@@ -1,0 +1,50 @@
+@import "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css";
+/*universal styling*/
+body{
+	background: #000;
+}
+.container{
+	margin-top: 110px !important;
+
+}
+.card{
+	border:none;
+	outline:none;
+	background-color: #fff;
+	border-radius: 50px;
+
+}
+.card:hover{
+	transform: translateY(25px);
+	transition: transform .6s;
+}
+.text1{
+	font-size: 13px;
+	color: #cbcbcb;
+
+}
+.info{
+	line-height: 17px;
+
+}
+.star{
+	color: #fbc02d;
+}
+.cost span{
+	color: #fb3531;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+.shoe{
+	background: #dc3545;
+}
+
+.shoe:hover{
+	opacity: .8;
+}
+.cursor{
+	cursor: pointer;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}

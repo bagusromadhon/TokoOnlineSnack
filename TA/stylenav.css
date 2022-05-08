@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+
+}
+p{
+	font-weight: 300;
+	color: #111;
+}
+body{
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 80px;
+	z-index: 10000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.5s;
+	background-color: transparent;
+
+}
+header.sticky{
+	background:#fff;
+	padding: 10px 100px;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+header .logo{
+	color: #fff;
+	font-weight: 700;
+	font-size: 2em;
+	text-decoration: none;
+}
+header.sticky .logo{
+	color: #111;
+}
+header .logo span{
+	padding-bottom:20px;
+	color: #ff0157;
+}
+header .navigation{
+	position: relative;
+	display: flex;
+
+}
+header .navigation input[type=text]{
+	border:none;
+	font-size: 17px;
+}
+header .navigation button {
+	border:none;
+	outline: none;
+
+border-radius: 20%;
+	font-size: 20px;
+	font-weight: bold;
+}
+header .navigation li{
+	list-style: none;
+	margin-left: 30px;
+
+
+}
+header .navigation li a{
+	padding-top: 20px;
+	text-decoration: none;
+	color: rgb(0 142 93);;
+	font-weight: 700;
+	font-size: 20px;
+	
+}
+header.sticky .navigation li a{
+	color:#111;
+}
+
+header.sticky .navigation li a:hover{
+	color:rgb(255 200 1);
+}
+
+
+header .navigation li a:hover{
+color: #fff;
+}
+
+header .navigation button:hover {
+	cursor: pointer;
+	/*background: rgb(255 200 1);*/
+	background:rgb(124 207 161);
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
